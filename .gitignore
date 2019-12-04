@@ -1,0 +1,6 @@
+target/
+db/
+.idea/workspace.xml
+
+# Apple
+.DS_Store

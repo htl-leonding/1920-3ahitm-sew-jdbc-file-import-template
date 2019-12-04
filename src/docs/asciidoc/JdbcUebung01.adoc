@@ -1,0 +1,57 @@
+= Übung Game of Thrones
+// Metadata
+:author: Thomas W. Stütz
+:email: t.stuetz@htl-leonding.ac.at
+:date: 2019-12-04
+:revision:  1.0
+// Settings
+:source-highlighter: coderay
+:icons: font
+//:sectnums:    // Nummerierung der Überschriften / section numbering
+// Refs:
+:imagesdir: images
+:sourcedir-prod: ../../../src/main/java/at/htl/jdbcfileimport
+:sourcedir-test: ../../../src/test/java/at/htl/jdbcfileimport
+:toc:
+
+Version: {revision}
+
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+++++
+
+
+IMPORTANT: Führen Sie nach jeder Aufgabe ein Commit durch. Als Commit-Kommentar
+geben Sie zB an: "Task 1: class 'Person' created"
+
+== Aufgabe 1: Vorbereiten des Projekts
+
+Erstellen Sie eine Klasse `at.htl.jdbcrepository.business.Globals.java` wie folgt:
+
+
+
+== Aufgabe 1: Erstellen der Klasse Person
+
+Erstellen Sie nachfolgend dargestellte Klasse.
+
+.Klasse Person
+[plantuml,,png]
+----
+@startuml
+class Person {
+  id: Long
+  name: String
+  city: String
+  house: String
+}
+@enduml
+----
+
+== Aufgabe 2: Implementieren der Methoden in Klasse PersonDatabase
+
+Implementieren Sie die Mehoden der Klasse `PersonRepository`.
+Führen sie die Tests in der Klasse JdbcTest aus. Beachten Sie dort die Kommentare
+
+
+
+
